@@ -1,0 +1,54 @@
+.cabeçalho_lista {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 24px;
+    }
+    
+    .cabeçalho_imagem {
+    width: 25%;
+    height: 25%;
+    }
+    
+    .itens{
+    display: inline-block;
+    margin: 0 32px;
+    font-size: 30px;
+    
+    }
+    
+    * {
+    margin: 0 16px;
+    padding: 24px 0;
+    }
+    INDEX.HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formadores Programação</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="cabeçalho_lista">
+<img class="cabeçalho_imagem" src=".https://www.petz.com.br/blog/wp-content/uploads/2019/03/cachorro-mini-pet.jpg" alt="logo do Colégio">
+<ul class="lista">
+<li class="itens"> Colégio</li>
+<li class="itens"> Alunos</li>
+<li class="itens"> Equipe Pedagógica</li>
+<li class="itens"> Secretaria</li>
+<li class="itens"> Esportes</li>
+<li class="itens"> Projetos</li>
+
+
+
+</ul>
+</header>
+</body>
+</html>
+
+    
